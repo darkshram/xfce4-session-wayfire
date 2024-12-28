@@ -51,5 +51,4 @@ Until xfce4-screensaver gets support for wayland, I do recommend to use [gtklock
   - Telegram desktop tray icon will behave weird
 
 
-[https://github.com/user-attachments/assets/334ccc1c-45b2-4623-af4c-cea356b29d35
-](https://www.youtube.com/watch?v=laFQBWlVEKw)
+[![sddefault](https://github.com/user-attachments/assets/0f86b70c-edb1-425e-b523-82ee50ab6a92)](https://www.youtube.com/watch?v=laFQBWlVEKw)
