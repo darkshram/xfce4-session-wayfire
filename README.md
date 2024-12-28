@@ -50,5 +50,4 @@ Until xfce4-screensaver gets support for wayland, I do recommend to use [gtklock
   - Birdtray tray icon does not start Thunderbird
   - Telegram desktop tray icon will behave weird
 
-
-[![sddefault](https://github.com/user-attachments/assets/0f86b70c-edb1-425e-b523-82ee50ab6a92)](https://www.youtube.com/watch?v=laFQBWlVEKw)
+[![sddefault](https://github.com/user-attachments/assets/e8cd9c63-8df0-4d45-819b-d3243a696a3d)](https://www.youtube.com/watch?v=laFQBWlVEKw)
