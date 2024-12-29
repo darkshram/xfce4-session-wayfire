@@ -10,7 +10,7 @@ Obviously, you need to have installed Xfce 4.20.0 and the most recent version of
 git clone https://github.com/darkshram/xfce4-session-wayfire
 cd xfce4-session-wayfire
 sudo install -m 755 startxfce4-wayfire /usr/bin/startxfce4-wayfire
-sudo install -p 644  xfce-wayfire.desktop.in /usr/share/wayland-sessions/xfce-wayfire.desktop
+sudo install -m 644  xfce-wayfire.desktop.in /usr/share/wayland-sessions/xfce-wayfire.desktop
 sudo mkdir -p /usr/share/xfce4/wayfire
 sudo install -m 644 wayfire.ini /usr/share/xfce4/wayfire/wayfire.ini
 sudo mkdir -p /usr/libexec/xfce4/wayfire
