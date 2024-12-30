@@ -39,15 +39,15 @@ Until xfce4-screensaver gets support for wayland, I do recommend to use [gtklock
   - Xfce4 keyboard shortcuts will not work and you will need to add o modify whatever you need in `~/.config/xfce4/wayfire/wayfire.ini`
   - If you need to use themes for server side window decorations, you will need to install [firedecor](https://github.com/AhoyISki/Firedecor) plugin for Wayfire.
   - Until xfce4-screensaver gets support for Wayland, please use [gtklock](https://github.com/jovanlanik/gtklock) or [swaylock](https://github.com/swaywm/swaylock) instead editing `~/.config/xfce4/wayfire/wayfire.ini` (default is gtklock)
-  - Because several bugs in xfce4-settings, you will not be able to change desktop wallpaper unless you do it from `xfce4-settings-editor` or using `xfce4-change-wallpaper-all-displays.sh`, provided in this repository
+  - Because several issues in xfce4-settings and xfdesktop (they do identify monitors differently), you will not be able to change desktop wallpaper unless you do it from `xfce4-settings-editor` or using `xfce4-change-wallpaper-all-displays.sh`, provided in this repository
   - Drag and drop of window tabs does not work with xfce4-terminal and other Gtk applications, but works nice with mousepad
   - Celluloid (Gtk4) only works executing as `GDK_BACKEND=x11 celluloid`, but Gtk3 version works fine
   - Depending on your hardware and Mesa driver, try using mpv with `--vo=wlshm` or `--vo=sdl` for video output it it segfaults
   - Parole uses X11 specific code so you will see the video in a different window
-  - There is a lot of protocols not yet supported by Wayland, so do not expect the same functionality as in X11
   - Tested video players that actually do work with Wayland session: clapper, vlc and totem
   - Xfdashboard does not work with wayland (yet)
   - Birdtray tray icon does not start Thunderbird
   - Telegram desktop tray icon will behave weird
+  - **There is a lot of protocols not yet supported by Wayland, so do not expect the same functionality as in X11**
 
 [![sddefault](https://github.com/user-attachments/assets/e8cd9c63-8df0-4d45-819b-d3243a696a3d)](https://www.youtube.com/watch?v=laFQBWlVEKw)
