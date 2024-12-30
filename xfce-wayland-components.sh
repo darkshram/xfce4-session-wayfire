@@ -9,14 +9,14 @@ xfce4-panel
 Thunar --daemon
 xfdesktop
 
-if [ -e "/usr/libexec/notifyd/xfce4-notifyd" ]; then
-    /usr/libexec/notifyd/xfce4-notifyd
+if [ -e "/usr/lib64/xfce4/notifyd/xfce4-notifyd" ]; then
+    /usr/lib64/xfce4/notifyd/xfce4-notifyd
 else
   if [ -e "/usr/lib/xfce4/notifyd/xfce4-notifyd" ]; then
     /usr/lib64/xfce4/notifyd/xfce4-notifyd
   fi
-  if [ -e "/usr/lib/xfce4/notifyd/xfce4-notifyd" ]; then
-    /usr/lib/xfce4/notifyd/xfce4-notifyd
+  if [ -e "/usr/libexec/xfce4/notifyd/xfce4-notifyd" ]; then
+    /usr/libexec/xfce4/notifyd/xfce4-notifyd
   fi
 fi
 
